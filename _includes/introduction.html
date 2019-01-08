@@ -1,0 +1,16 @@
+
+    <section id="introduction" class="container content-section text-center">
+        {% for post in site.stories reversed%}
+          {% if post.category == 'introduction'%}
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+              <br/><br/>
+              <h2>{{post.title}}</h2>
+              <br/>
+                {{post.content}}
+                <br/>
+              </div>
+        </div>
+        {% endif%}
+        {%endfor%}
+    </section>

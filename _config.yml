@@ -1,0 +1,46 @@
+# ----------------------- #
+#      Main Configs       #
+# ----------------------- #
+
+url: https://epfl-ada-2018.github.io/project-pizzafels/
+title: MovIt
+email: clementgrand20@gmail.com
+author: Clément GRAND
+description: > # Need to set a better description
+  Can you see me?
+copyright: 'Copyright &copy; 2018 clementg20. All Rights Reserved.'
+credits: 'Credits: The template comes from : https://github.com/swcool/landing-page-theme.'
+
+# ----------------------- #
+#    Jekyll & Plugins     #
+# ----------------------- #
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# ----------------------- #
+#   3rd Party Settings    #
+# ----------------------- #
+
+social:
+  - title: messenger
+    url: https://www.messenger.com/t/clementg20
+  - title: facebook
+    url: https://facebook.com/clementg20
+  - title: mail
+    url: mailto:clementgrand20@gmail.com
+
+parts: #You can add a category here : nothing than these two lines
+
+  - cat_tag: 'access'
+    cat_name: 'Connexion Au Serveur'
+  # - cat_tag: 'contact'
+  #   cat_name: 'Demander Un Film'
+  # - cat_tag: 'news'
+  #   cat_name: 'Nouveautés'
+    
+collections:
+  - stories
+custom-javascript-list:
+    - "https://cdn.plot.ly/plotly-latest.min.js"
