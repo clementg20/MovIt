@@ -10,9 +10,9 @@ Il est nécessaire d'économiser l'énergie! Pour cette raison, le serveur s'ét
 <p align="center">
 <a type="button" class="btn btn-primary btn-lg" onclick="Shutdown('90')"> 1 HEURES 30 MINUTES </a>
 &nbsp;&nbsp;&nbsp;
-<a type="button" class="btn btn-primary btn-lg" onclick="Shutdown(120)"> 2 HEURES 00 MINUTES </a>
+<a type="button" class="btn btn-primary btn-lg" onclick="Shutdown('120')"> 2 HEURES 00 MINUTES </a>
 &nbsp;&nbsp;&nbsp;
-<a type="button" class="btn btn-primary btn-lg" onclick="Shutdown(180)"> 3 HEURES 00 MINUTES </a>
+<a type="button" class="btn btn-primary btn-lg" onclick="Shutdown('180')"> 3 HEURES 00 MINUTES </a>
 <br/>
 <u>Important: </u> Assurez-vous que le serveur soit allumé (que vous pouvez accéder à Plex) avant de cliquer sur l'un des boutons.
 </p>
