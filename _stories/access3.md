@@ -20,7 +20,7 @@ Il est nécessaire d'économiser l'énergie! Pour cette raison, le serveur s'ét
 <script type="text/javascript">
 function Shutdown(x){
     $.ajax({
-        url:'http://clementg20.sytes.net/shutdown/'+x,
+        url:'//clementg20.sytes.net/shutdown/'+x,
         type:'get',
     });
 }
